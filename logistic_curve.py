@@ -1,3 +1,6 @@
+import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
 
 #  create the plot
 st.title('Logisitic Curve')
