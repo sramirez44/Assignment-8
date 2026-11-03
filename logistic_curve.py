@@ -1,5 +1,9 @@
 
-#  create the plot
+import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
+
+#   create the plot
 st.title('Logisitic Curve')
 
 st.latex(r"f(x) = \frac{e^{\beta_0 + \beta_1 x}}{1 + e^{\beta_0 + \beta_1 x}}")
